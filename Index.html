@@ -10,20 +10,29 @@
 
 <body>
     <div class="container mt-5">
-        <h2>Listado de Series</h2>
-        <table class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Channel</th>
-                <th>Seasons</th>
-              </tr>
-            </thead>
-            <tbody id="series"></tbody>
-          </table>
-          <div id="promedio"></div>
+      <div class = "row">
+        <div class = "col">
+          <h2>Listado de Series</h2>
+          <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Channel</th>
+                  <th>Seasons</th>
+                </tr>
+              </thead>
+              <tbody id="series"></tbody>
+            </table>
+            <div id="promedio"></div>
+        </div>
+        <div class = "col">
+          <div class = "card">
+            <div id = "detalles"></div>
+          </div>
+        </div>
       </div>
+    </div>
 
     <script type="module" src="./scripts/main.js"></script>
 
